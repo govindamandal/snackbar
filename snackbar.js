@@ -17,14 +17,6 @@ const snackbar = {
     snackbar.hide(x);
   },
 
-  success: (message) => {
-    var x = document.getElementById("snackbar");
-    x.className = "success show";
-    x.innerHTML = message + snackbar_close_button;
-    snackbar_wrapper.style.visibility = 'visible';
-    snackbar.hide(x);
-  },
-
   info: (message) => {
     var x = document.getElementById("snackbar");
     x.className = "info show";
@@ -49,7 +41,7 @@ const snackbar = {
     snackbar.hide(x);
   },
 
-  danger: (message) => {
+  error: (message) => {
     var x = document.getElementById("snackbar");
     x.className = "danger show";
     x.innerHTML = message + snackbar_close_button;

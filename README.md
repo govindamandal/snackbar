@@ -9,11 +9,11 @@ This repository is for showing alert message.
 <html lang="en-US">
   <head>
     <title>Snackbar Demo</title>
-    <link rel="stylesheet" href="css/snackbar.css" type="text/css" />    
+    <link rel="stylesheet" href="snackbar.css" type="text/css" />    
   </head>
   <body>
     <button type="button" onclick="showSnackbar()"></button>
-    <script src="https://www.algolitsolutions.com/js/snackbar.js"></script>
+    <script src="snackbar.js"></script>
     <script type="text/javascript">
        showSnackbar = () => {
           // Success message
